@@ -1,13 +1,10 @@
-/* تحسين شكل الـ Card ليشبه التصميم المرفق */
+/* تحسين شكل الـ Card */
 .option-card {
     border: 2px solid transparent;
     border-radius: 15px;
     transition: all 0.3s ease;
+    position: relative;
 }
-
-/* .option-card:hover {
-    border-color: #007bff;
-  } */
 
 .option-card img {
     width: 50px;
@@ -19,8 +16,6 @@
     color: #333;
 }
 
-
-
 /* تحسين تصميم زر البدء الآن */
 #startNowBtn {
     width: 200px;
@@ -31,39 +26,21 @@
     display: none;
 }
 
-
-
+/* تحسين تصميم البطاقة */
 .cardd {
     border-radius: 15px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
-    border: 2px solid transparent;
-    /* الإعداد الافتراضي للحدود */
+    border: 2px solid transparent; /* الإعداد الافتراضي للحدود */
+    transition: border-color 0.3s ease;
 }
-
-
-.option-card {
-    border: 2px solid transparent;
-    border-radius: 15px;
-    transition: all 0.3s ease;
-    position: relative;
-}
-
-.option-card h5 {
-    font-weight: bold;
-    color: #333;
-}
-
-.form-check-input {
-    display: inline-block;
-    /* Now the radio button will be visible */
-    margin-right: 10px;
-    /* Adjust as needed to align with the text */
-}
-
-
 
 .cardd.selected {
-    border: 2px solid #007bff !important;
+    border-color: #007bff !important; /* لون الحدود عند التحديد */
+}
+
+.option-card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .w-sahal {
@@ -74,20 +51,25 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    /* Push the content to the bottom */
     align-items: center;
-    /* Center content horizontally */
-    min-height: 280px;
-    /* Ensure the container takes the full height of the viewport */
+    min-height: 270px;
     padding-bottom: 20px;
-    /* Add some padding to avoid content touching the bottom edge */
 }
 
-
-button:disabled{
+button:disabled {
     background-color: #B0BBD5;
     border: none;
 }
-.m-top{
-    margin:20px auto 40px auto !important ;
+
+.m-top {
+    margin: 20px auto 40px auto !important;
+}
+.selected {
+    border: 2px solid #007bff; /* لون الإطار */
+     /* خلفية البطاقة عند تحديدها */
+     
+}
+.form-check-input[_ngcontent-ng-c3784686024] {
+    display: none;
+    margin-right: 9px !important;
 }

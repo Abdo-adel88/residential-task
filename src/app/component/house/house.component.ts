@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HouseComponent {
   selectedCard: string = '';
-  
+
+
+  selectCard(card: string) {
+    this.selectedCard = card;
+  }
 }
