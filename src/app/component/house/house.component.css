@@ -40,7 +40,6 @@
 
 .option-card:hover {
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .w-sahal {
@@ -65,11 +64,9 @@ button:disabled {
     margin: 20px auto 40px auto !important;
 }
 .selected {
-    border: 2px solid #007bff; /* لون الإطار */
-     /* خلفية البطاقة عند تحديدها */
-     
+    border: 2px solid #007bff; 
 }
-.form-check-input[_ngcontent-ng-c3784686024] {
+.form-check-input {
     display: none;
     margin-right: 9px !important;
 }
