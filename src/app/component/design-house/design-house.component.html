@@ -103,7 +103,7 @@
         <div class="d-flex align-items-center">
           <div class="d-flex align-items-center ms-4" [ngClass]="{'selected': selectedCard === 'cardFuture'}">
             <input type="radio" name="designOption"
-              class="form-check-input d-flex justify-content-end mx-2 align-items-center pointer" id="Future"
+              class="form-check-input d-flex justify-content-end ms-2 align-items-center pointer" id="Future"
               [(ngModel)]="selectedCard" [value]="'cardFuture'">
             <label for="Future" class="form-check-label pointer">
               <div class="d-flex justify-content-center align-items-center">
@@ -130,7 +130,7 @@
   <div class="row">
     <div class="div-bottom bg-gry p-3 rounded-top-3 ">
       <div class="col-md-12 d-flex align-items-center justify-content-start">
-        <div class="d-flex align-items-center justify-content-center">
+        <div class="d-flex me-1 align-items-center justify-content-center">
           <i (click)="doDelete()"    [ngClass]="{
             'fa-regular fa-eye': !homeInfo,
             'fa-solid fa-eye-slash': homeInfo

@@ -1,4 +1,3 @@
-/* تحسين شكل الـ Card */
 .option-card {
     border: 2px solid transparent;
     border-radius: 15px;
@@ -16,26 +15,23 @@
     color: #333;
 }
 
-/* تحسين تصميم زر البدء الآن */
 #startNowBtn {
     width: 200px;
 }
 
-/* إخفاء الـ Radio Button الأصلي */
 .form-check-input {
     display: none;
 }
 
-/* تحسين تصميم البطاقة */
 .cardd {
     border-radius: 15px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
-    border: 2px solid transparent; /* الإعداد الافتراضي للحدود */
+    border: 2px solid transparent; 
     transition: border-color 0.3s ease;
 }
 
 .cardd.selected {
-    border-color: #007bff !important; /* لون الحدود عند التحديد */
+    border-color: #007bff !important; 
 }
 
 .option-card:hover {

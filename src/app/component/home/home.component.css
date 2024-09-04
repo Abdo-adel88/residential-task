@@ -63,38 +63,28 @@ p,
 
 }
 
-.cardd {
-    border-radius: 15px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
-}
+
 
 .color-gry {
     color: #888;
 }
 
 
-.cardd {
-    border-radius: 15px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
-}
 
 
 
 #extraContent {
     transition: all 0.3s ease;
-    /* لتأثير ظهور سلس */
 }
 
 .cardd {
     border-radius: 15px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
     border: 2px solid transparent;
-    /* الإعداد الافتراضي للحدود */
 }
 
 .cardd.selected {
     border: 2px solid #007bff !important;
-    /* تغيير لون الحدود عند التحديد */
 }
 
 button:disabled {
@@ -121,10 +111,8 @@ button:disabled {
 
 .mt-big {
     margin-top: 61px !important;
-    /* width: 450px !important; */
 }
 
 .w-p {
-    /* width: 403px !important; */
     font-size: 20px !important;
 }

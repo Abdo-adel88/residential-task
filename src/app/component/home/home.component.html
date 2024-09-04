@@ -1,5 +1,5 @@
 <div class="">
-    <div class="vh-100 hight mt-0">
+    <div class="vh-100  hight mt-0">
         <div class="row h-100 justify-content-center ">
             <div class="col-lg-5 col-md-5 Rectangle ">
                 <div class="px-5  pt-4 h-100">
@@ -41,9 +41,9 @@
                     <p class="mb-4 text-end color-gry">الطريقة المختارة لطريقة إنشاء رسالة الحملة</p>
 
                     <div class="form-check p-1" [ngClass]="{ 'cardd': true, 'selected': selectedOption === 'manualOption' }">
-                        <div class="p-4">
-                            <input class="form-check-input pointer" type="radio" name="campaignMethod" id="manualOption" [(ngModel)]="selectedOption" value="manualOption">
-                            <label class="form-check-label pointer" for="manualOption">
+                        <div class="">
+                            <input class="form-check-input pointer ms-2" type="radio" name="campaignMethod" id="manualOption" [(ngModel)]="selectedOption" value="manualOption">
+                            <label class="form-check-label pointer w-100 p-3" for="manualOption">
                                 <div class="mb-2">
                                     <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect opacity="0.04" width="35" height="35" rx="4.74576" fill="#3E97FF"/>
@@ -113,9 +113,9 @@
                     </div>
 
                     <div class="form-check p-1" [ngClass]="{ 'cardd': true, 'selected': selectedOption === 'aiOption' }">
-                        <div class="p-4">
-                            <input class="form-check-input pointer" type="radio" name="campaignMethod" id="aiOption" [(ngModel)]="selectedOption" value="aiOption">
-                            <label class="form-check-label pointer" for="aiOption">
+                        <div class="">
+                            <input class="form-check-input pointer ms-2" type="radio" name="campaignMethod" id="aiOption" [(ngModel)]="selectedOption" value="aiOption">
+                            <label class="form-check-label pointer  w-100 p-3" for="aiOption">
                                 <div class="mb-2">
                                     <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect opacity="0.08" width="35" height="35" rx="4.74576" fill="#6746F6"/>
@@ -193,7 +193,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-auto me-auto">
+                    <div class="mt-auto me-lg-auto me-md-auto  me-4">
                         <button routerLink="/place" class="btn w-100 btn-primary btn-wid mt-4" [disabled]="!selectedOption">ابدأ الآن</button>
                     </div>
                 </div>
