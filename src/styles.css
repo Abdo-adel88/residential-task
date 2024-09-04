@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('src/assets/fonts/NeoSansArabic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('src/assets/fonts/NeoSansArabicBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+body {
+    direction: rtl;
+    font-family: 'Neo Sans Arabic';
+}
+
+.fonts {
+    font-family: 'Neo Sans Arabic';
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.color-gry {
+    color: #a5a6a9 !important;
+
+}
+
+.bg-gry {
+    background-color: #F2F4F7 !important;
+
+}
+
+.hov-close {
+    background: #e5e5e5;
+    color: #84929E;
+}
+
+.hov-close:hover {
+    color: red !important;
+}
+
+.form-check-input[type=radio] {
+
+    background-color: #00000024;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd !important;
+    border-color: #0d6efd;
+}
+
+.w-btn {
+    width: 164px !important;
+}

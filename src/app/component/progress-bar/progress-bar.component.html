@@ -1,0 +1,45 @@
+<div class="overflow-hidden">
+    <div class="row justify-content-center text-center">
+        <div class="col-12 d-flex justify-content-between">
+            <button routerLink="/design-house" type="button"
+                class="btn me-3  d-flex align-items-center fs-5 justify-content-center border-0" aria-label="Back"><i
+                    class="fa-solid fa-arrow-right   ms-2"></i>العودة </button>
+
+            <button routerLink="/home" type="button" class="btn fw-bolder hov-close   m-4">X</button>
+
+
+        </div>
+    </div>
+</div>
+<div *ngIf="!isComplete" class="progress-container text-center">
+
+    <h3 class="fw-bold">جاري إرسال رسالتك الأسكانية</h3>
+    <p class="color-gry">الرجاء الانتظار بعض الدقائق فقط</p>
+    <div class="circular-progress space-y">
+        <div class="circular-inner">
+            <i class="fa-solid fa-paper-plane  text-color"></i>
+        </div>
+    </div>
+    <div class="progress-info  d-flex justify-content-between">
+        <span >جاري الإرسال</span>
+        <span>{{ progress }}/100</span>
+
+    </div>
+    <div class="progress mt-2">
+        <div class="progress-bar" role="progressbar" [style.width.%]="progress" [attr.aria-valuenow]="progress"
+            aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+</div>
+
+<div *ngIf="isComplete" class="success-container text-center">
+   
+    <h3>تم إرسال رسالتك بنجاح</h3>
+    <p>الرجاء الانتظار بعض الدقائق فقط</p>
+    <div class="checkmark-icon space-y">
+        <div class="checkmark-inner">
+            <i class="fa-solid fa-check color-sec"></i>
+        </div>
+    </div>
+    <button routerLink="/home" class="btn btn-primary mt-4">خروج</button>
+</div>

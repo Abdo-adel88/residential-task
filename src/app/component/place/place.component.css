@@ -1,0 +1,110 @@
+/* تحسين شكل الـ Card ليشبه التصميم المرفق */
+.option-card {
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+/* .option-card:hover {
+    border-color: #007bff;
+  } */
+
+.option-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.option-card h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+/* تحسين تصميم زر البدء الآن */
+#startNowBtn {
+    width: 200px;
+}
+
+/* إخفاء الـ Radio Button الأصلي */
+.form-check-input {
+    display: none;
+}
+
+
+
+.cardd {
+    border-radius: 15px;
+    /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); */
+    border: 2px solid rgba(0, 0, 0, 0.059) !important;
+    /* الإعداد الافتراضي للحدود */
+}
+.cardd:hover {
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px  rgba(0, 0, 0, 0.1);
+    /* border: 2px solid rgba(0, 0, 0, 0.059) !important; */
+    /* الإعداد الافتراضي للحدود */
+}
+
+.cardd.selected {
+    border: 2px solid #007bff !important;
+    /* تغيير لون الحدود عند التحديد */
+}
+
+.option-card {
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.option-card h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-check-input {
+    display: inline-block;
+    /* Now the radio button will be visible */
+    margin-right: 10px;
+    /* Adjust as needed to align with the text */
+}
+
+
+
+
+
+.w-sahal {
+    width: 135px !important;
+}
+
+.container-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* Push the content to the bottom */
+    align-items: center;
+    /* Center content horizontally */
+    min-height: 270px;
+    /* Ensure the container takes the full height of the viewport */
+    padding-bottom: 20px;
+    /* Add some padding to avoid content touching the bottom edge */
+}
+
+.hov-close {
+    background: #e5e5e5;
+    color: #84929E;
+}
+
+.hov-close:hover {
+    color: red !important;
+    /* background-color: red; */
+}
+button:disabled{
+    background-color: #B0BBD5;
+    border: none;
+}
+.m-top{
+    margin:20px auto 40px auto !important ;
+}
+

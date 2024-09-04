@@ -1,0 +1,77 @@
+.progress-container,
+.success-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.circular-progress {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background: rgba(0, 123, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-inner {
+  width: 275px;
+  height: 275px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.progress-bar {
+  height: 20px;
+  background-color: #007bff;
+}
+
+.progress-info {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.checkmark-icon {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background: rgba(0, 123, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkmark-inner {
+  width: 275px;
+  height: 275px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.text-color {
+  color: #007bff;
+  font-size: 100px;
+}
+
+.color-sec {
+  color: white;
+  font-size: 100px;
+}
+
+.space-y {
+  margin: 80px auto 80px auto !important;
+}

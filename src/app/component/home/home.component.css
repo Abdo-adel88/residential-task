@@ -1,0 +1,130 @@
+body {
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+.card {
+    border-radius: 12px;
+    border: none;
+    background-color: transparent;
+}
+
+h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+p,
+.form-check-label {
+    color: #666;
+}
+
+.btn-wid {
+    width: 230px !important;
+}
+
+.form-check-input {
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.form-check-label p {
+    margin: 0;
+}
+
+.p-alone {
+    width: 126px;
+    height: 17px;
+    flex-grow: 0;
+    font-family: NeoSansArabic;
+    font-size: 16px;
+    margin-top: 34px !important;
+    text-align: right;
+    color: #83899f;
+}
+
+.hight {
+    overflow-x: hidden;
+
+}
+
+.Rectangle {
+    background-image: url(src/assets/img/Rectangle.jpg);
+    background-size: cover;
+    
+
+}
+
+.cardd {
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.color-gry {
+    color: #888;
+}
+
+
+.cardd {
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#extraContent {
+    transition: all 0.3s ease;
+    /* لتأثير ظهور سلس */
+}
+
+.cardd {
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    /* الإعداد الافتراضي للحدود */
+}
+
+.cardd.selected {
+    border: 2px solid #007bff !important;
+    /* تغيير لون الحدود عند التحديد */
+}
+
+button:disabled {
+    background-color: #B0BBD5;
+    border: none;
+}
+
+.circle-div {
+    width: 28px;
+    height: 28px;
+
+    border-radius: 50%;
+    margin: 0 0 0 14px;
+    padding: 4.3px 5.2px 3.8px 5.2px;
+    background: rgba(0, 123, 255, 0.1);
+}
+
+.circle-div i {
+    color: #007bff;
+    font-size: 16px;
+    margin-right: 2px !important;
+    margin-top: 1px !important;
+}
+
+.mt-big {
+    margin-top: 61px !important;
+    /* width: 450px !important; */
+}
+
+.w-p {
+    /* width: 403px !important; */
+    font-size: 20px !important;
+}
